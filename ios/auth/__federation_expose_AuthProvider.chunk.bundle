@@ -1,0 +1,394 @@
+"use strict";
+(self["webpackChunksas_auth"] = self["webpackChunksas_auth"] || []).push([["__federation_expose_AuthProvider"], {
+24282: (function (__unused_webpack_module, exports, __webpack_require__) {
+
+var _define_property = __webpack_require__(5303);
+function _object_spread(target) {
+    for(var i = 1; i < arguments.length; i++){
+        var source = arguments[i] != null ? arguments[i] : {};
+        var ownKeys = Object.keys(source);
+        if (typeof Object.getOwnPropertySymbols === "function") {
+            ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function(sym) {
+                return Object.getOwnPropertyDescriptor(source, sym).enumerable;
+            }));
+        }
+        ownKeys.forEach(function(key) {
+            _define_property._(target, key, source[key]);
+        });
+    }
+    return target;
+}
+exports._ = _object_spread;
+
+
+}),
+57677: (function (__unused_webpack_module, exports) {
+
+function ownKeys(object, enumerableOnly) {
+    var keys = Object.keys(object);
+    if (Object.getOwnPropertySymbols) {
+        var symbols = Object.getOwnPropertySymbols(object);
+        if (enumerableOnly) {
+            symbols = symbols.filter(function(sym) {
+                return Object.getOwnPropertyDescriptor(object, sym).enumerable;
+            });
+        }
+        keys.push.apply(keys, symbols);
+    }
+    return keys;
+}
+function _object_spread_props(target, source) {
+    source = source != null ? source : {};
+    if (Object.getOwnPropertyDescriptors) Object.defineProperties(target, Object.getOwnPropertyDescriptors(source));
+    else {
+        ownKeys(Object(source)).forEach(function(key) {
+            Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key));
+        });
+    }
+    return target;
+}
+exports._ = _object_spread_props;
+
+
+}),
+75251: (function (__unused_webpack_module, exports, __webpack_require__) {
+var __webpack_unused_export__;
+/**
+ * @license React
+ * react-jsx-runtime.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+var f=__webpack_require__(41845),k=Symbol.for("react.element"),l=Symbol.for("react.fragment"),m=Object.prototype.hasOwnProperty,n=f.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED.ReactCurrentOwner,p={key:!0,ref:!0,__self:!0,__source:!0};
+function q(c,a,g){var b,d={},e=null,h=null;void 0!==g&&(e=""+g);void 0!==a.key&&(e=""+a.key);void 0!==a.ref&&(h=a.ref);for(b in a)m.call(a,b)&&!p.hasOwnProperty(b)&&(d[b]=a[b]);if(c&&c.defaultProps)for(b in a=c.defaultProps,a)void 0===d[b]&&(d[b]=a[b]);return{$$typeof:k,type:c,key:e,ref:h,props:d,_owner:n.current}}__webpack_unused_export__=l;exports.jsx=q;exports.jsxs=q;
+
+
+}),
+7571: (function (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+__webpack_require__.d(__webpack_exports__, {
+  V: function() { return AuthContext; },
+  a: function() { return useAuth; }
+});
+/* ESM import */var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(41845);
+/* ESM import */var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+var AuthContext = react__WEBPACK_IMPORTED_MODULE_0___default().createContext({
+    signIn: function() {},
+    signOut: function() {},
+    signUp: function() {}
+});
+var useAuth = function() {
+    return react__WEBPACK_IMPORTED_MODULE_0___default().useContext(AuthContext);
+};
+
+
+
+}),
+85893: (function (module, __unused_webpack_exports, __webpack_require__) {
+
+
+if (true) {
+  module.exports = __webpack_require__(75251);
+} else {}
+
+
+}),
+8777: (function (__unused_webpack_module, exports) {
+
+function _class_call_check(instance, Constructor) {
+    if (!(instance instanceof Constructor)) throw new TypeError("Cannot call a class as a function");
+}
+exports._ = _class_call_check;
+
+
+}),
+99637: (function (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  "default": function() { return /* binding */ providers_AuthProvider; }
+});
+
+// EXTERNAL MODULE: ./node_modules/@swc/helpers/cjs/_async_to_generator.cjs
+var _async_to_generator = __webpack_require__(37297);
+// EXTERNAL MODULE: ./node_modules/@swc/helpers/cjs/_object_spread.cjs
+var _object_spread = __webpack_require__(24282);
+// EXTERNAL MODULE: ./node_modules/@swc/helpers/cjs/_object_spread_props.cjs
+var _object_spread_props = __webpack_require__(57677);
+// EXTERNAL MODULE: ./node_modules/@swc/helpers/cjs/_sliced_to_array.cjs
+var _sliced_to_array = __webpack_require__(21193);
+// EXTERNAL MODULE: ./node_modules/@swc/helpers/cjs/_ts_generator.cjs
+var _ts_generator = __webpack_require__(63563);
+// EXTERNAL MODULE: ./node_modules/react/jsx-runtime.js
+var jsx_runtime = __webpack_require__(85893);
+// EXTERNAL MODULE: consume shared module (default) react@18.2.0 (strict) (fallback: /Users/hmdev02/Desktop/ReactNative/auth/node_modules/react/index.js)
+var index_js_ = __webpack_require__(41845);
+var index_js_default = /*#__PURE__*/__webpack_require__.n(index_js_);
+// EXTERNAL MODULE: ./node_modules/@swc/helpers/cjs/_class_call_check.cjs
+var _class_call_check = __webpack_require__(8777);
+// EXTERNAL MODULE: ./node_modules/@swc/helpers/cjs/_create_class.cjs
+var _create_class = __webpack_require__(51302);
+// EXTERNAL MODULE: ./node_modules/@swc/helpers/cjs/_define_property.cjs
+var _define_property = __webpack_require__(5303);
+// EXTERNAL MODULE: consume shared module (default) @react-native-async-storage/async-storage@1.17.11 (strict) (fallback: /Users/hmdev02/Desktop/ReactNative/auth/node_modules/@react-native-async-storage/async-storage/src/index.ts)
+var index_ts_ = __webpack_require__(36707);
+var index_ts_default = /*#__PURE__*/__webpack_require__.n(index_ts_);
+;// CONCATENATED MODULE: ./src/services/AuthService.ts
+
+
+
+
+var AuthService_AuthService = /*#__PURE__*/ function() {
+    "use strict";
+    function AuthService() {
+        (0,_class_call_check._)(this, AuthService);
+        (0,_define_property._)(this, "TOKEN_KEY", 'token');
+    }
+    (0,_create_class._)(AuthService, [
+        {
+            key: "getCredentials",
+            value: function getCredentials() {
+                return index_ts_default().getItem(this.TOKEN_KEY);
+            }
+        },
+        {
+            key: "setCredentials",
+            value: function setCredentials(token) {
+                return index_ts_default().setItem(this.TOKEN_KEY, token);
+            }
+        },
+        {
+            key: "removeCredentials",
+            value: function removeCredentials() {
+                return index_ts_default().removeItem(this.TOKEN_KEY);
+            }
+        }
+    ]);
+    return AuthService;
+}();
+(0,_define_property._)(AuthService_AuthService, "shared", new AuthService_AuthService());
+/* ESM default export */ var services_AuthService = (AuthService_AuthService);
+
+// EXTERNAL MODULE: ./src/contexts/AuthContext.ts
+var AuthContext = __webpack_require__(7571);
+;// CONCATENATED MODULE: ./src/providers/AuthProvider.tsx
+
+
+
+
+
+
+
+
+
+var AuthProvider_ActionTypes = /*#__PURE__*/ (/* unused pure expression or super */ null && (function(ActionTypes) {
+    ActionTypes["RESTORE_TOKEN"] = "RESTORE_TOKEN";
+    ActionTypes["SIGN_IN"] = "SIGN_IN";
+    ActionTypes["SIGN_OUT"] = "SIGN_OUT";
+    return ActionTypes;
+}(AuthProvider_ActionTypes || {})));
+var reducer = function(prevState, action) {
+    switch(action.type){
+        case "RESTORE_TOKEN":
+            return (0,_object_spread_props._)((0,_object_spread._)({}, prevState), {
+                isSignout: action.payload,
+                isLoading: false
+            });
+        case "SIGN_IN":
+            return (0,_object_spread_props._)((0,_object_spread._)({}, prevState), {
+                isSignout: false
+            });
+        case "SIGN_OUT":
+            return (0,_object_spread_props._)((0,_object_spread._)({}, prevState), {
+                isSignout: true
+            });
+        default:
+            return prevState;
+    }
+};
+var AuthProvider = function(param) {
+    var children = param.children;
+    var _React_useReducer = (0,_sliced_to_array._)(index_js_default().useReducer(reducer, {
+        isLoading: false,
+        isSignout: false
+    }), 2), state = _React_useReducer[0], dispatch = _React_useReducer[1];
+    var authContext = index_js_default().useMemo(function() {
+        return {
+            signIn: function() {
+                return (0,_async_to_generator._)(function() {
+                    var e;
+                    return (0,_ts_generator._)(this, function(_state) {
+                        switch(_state.label){
+                            case 0:
+                                _state.trys.push([
+                                    0,
+                                    2,
+                                    ,
+                                    3
+                                ]);
+                                return [
+                                    4,
+                                    services_AuthService.shared.setCredentials('dummy-auth-token')
+                                ];
+                            case 1:
+                                _state.sent();
+                                return [
+                                    3,
+                                    3
+                                ];
+                            case 2:
+                                e = _state.sent();
+                                return [
+                                    3,
+                                    3
+                                ];
+                            case 3:
+                                dispatch({
+                                    type: "SIGN_IN"
+                                });
+                                return [
+                                    2
+                                ];
+                        }
+                    });
+                })();
+            },
+            signOut: function() {
+                return (0,_async_to_generator._)(function() {
+                    var e;
+                    return (0,_ts_generator._)(this, function(_state) {
+                        switch(_state.label){
+                            case 0:
+                                _state.trys.push([
+                                    0,
+                                    2,
+                                    ,
+                                    3
+                                ]);
+                                return [
+                                    4,
+                                    services_AuthService.shared.removeCredentials()
+                                ];
+                            case 1:
+                                _state.sent();
+                                return [
+                                    3,
+                                    3
+                                ];
+                            case 2:
+                                e = _state.sent();
+                                return [
+                                    3,
+                                    3
+                                ];
+                            case 3:
+                                dispatch({
+                                    type: "SIGN_OUT"
+                                });
+                                return [
+                                    2
+                                ];
+                        }
+                    });
+                })();
+            },
+            signUp: function() {
+                return (0,_async_to_generator._)(function() {
+                    var e;
+                    return (0,_ts_generator._)(this, function(_state) {
+                        switch(_state.label){
+                            case 0:
+                                _state.trys.push([
+                                    0,
+                                    2,
+                                    ,
+                                    3
+                                ]);
+                                return [
+                                    4,
+                                    services_AuthService.shared.setCredentials('dummy-auth-token')
+                                ];
+                            case 1:
+                                _state.sent();
+                                return [
+                                    3,
+                                    3
+                                ];
+                            case 2:
+                                e = _state.sent();
+                                return [
+                                    3,
+                                    3
+                                ];
+                            case 3:
+                                dispatch({
+                                    type: "SIGN_IN"
+                                });
+                                return [
+                                    2
+                                ];
+                        }
+                    });
+                })();
+            }
+        };
+    }, []);
+    index_js_default().useEffect(function() {
+        var restoreToken = function() {
+            return (0,_async_to_generator._)(function() {
+                var userToken, e;
+                return (0,_ts_generator._)(this, function(_state) {
+                    switch(_state.label){
+                        case 0:
+                            _state.trys.push([
+                                0,
+                                2,
+                                ,
+                                3
+                            ]);
+                            return [
+                                4,
+                                services_AuthService.shared.getCredentials()
+                            ];
+                        case 1:
+                            userToken = _state.sent();
+                            return [
+                                3,
+                                3
+                            ];
+                        case 2:
+                            e = _state.sent();
+                            return [
+                                3,
+                                3
+                            ];
+                        case 3:
+                            dispatch({
+                                type: "RESTORE_TOKEN",
+                                payload: !userToken
+                            });
+                            return [
+                                2
+                            ];
+                    }
+                });
+            })();
+        };
+        restoreToken();
+    }, []);
+    return /*#__PURE__*/ (0,jsx_runtime.jsx)(AuthContext/* AuthContext,Provider */.V.Provider, {
+        value: authContext,
+        children: children(state)
+    });
+};
+/* ESM default export */ var providers_AuthProvider = (AuthProvider);
+
+
+}),
+
+}]);//# sourceMappingURL=__federation_expose_AuthProvider.chunk.bundle.map?platform=ios/* RCSSB */eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJoYXNoIjoiZTNkY2VlZTlhZmJhODhkZWZmZDk5MDg0NzhmNzFlYzI1NDA1ZWU0NTI5ODI1NDI1MTg1Y2FlNTZmY2ZlNWI0ZSIsImlhdCI6MTc0ODkzMTIzOX0.wZ95PYT380IK7KZhs1FElRgz4ZChJIZKDOcpqkF5mnLfK1X32-YHgMJ-sHdm5j-4dPj4bhjHH-o4SENUiNM07KGfg-LS2EKW03yjR-sXHWWQBlfJQwRi2gROdg0oxkrkf9dKiVsbZ2Vd_NQUyGi0KXAs2VTp9YWoHx8pgQcnNm5cMrq4DvvKAl0ga8NB2E9bxIMThcSiYqjWrilPfAuZE_oqQUWqiQWhToE6RlWQvaWhVjmv0yzELOe9OhYj9UkeHmGlvNbYvvnwtYKwwsAkXXqPGX783-2LuMcnBO4eO8FQQvMbUyf1wx0R0Q88UPTD8l-zdeeYqZFimlTSkZijAg                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              

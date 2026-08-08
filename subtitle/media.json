@@ -1,0 +1,156 @@
+{
+  "1_INTRO_VIDEO": {
+    "key": "1_INTRO_VIDEO",
+    "url": {
+      "en": "https://vz-88b9f9c3-e13.b-cdn.net/dc9106b5-c945-4f13-98c0-4595dc7c7236/playlist.m3u8",
+      "es": "https://vz-88b9f9c3-e13.b-cdn.net/6317c28f-62ec-4290-a296-77b97136e490/playlist.m3u8"
+    },
+    "subtitle": {
+      "en": "https://thanhthai198.github.io/my_cdn/subtitle/intro/en.vtt",
+      "es": ""
+    }
+  },
+  "2_INTERVIEW_VIDEO": {
+    "key": "2_INTERVIEW_VIDEO",
+    "url": {
+      "en": "https://vz-88b9f9c3-e13.b-cdn.net/e52f5874-3b6d-4b75-9588-2553737537ab/playlist.m3u8",
+      "es": "https://vz-88b9f9c3-e13.b-cdn.net/d5102286-4bf5-490a-a93f-6e7cb538e739/playlist.m3u8"
+    },
+    "subtitle": {
+      "en": "https://thanhthai198.github.io/my_cdn/subtitle/interview/en.vtt",
+      "es": ""
+    }
+  },
+  "3_ONBOARDING_VIDEO": {
+    "key": "3_ONBOARDING_VIDEO",
+    "url": {
+      "en": "https://vz-88b9f9c3-e13.b-cdn.net/53f9a23a-d1ce-4d52-b655-3b6585e8b053/playlist.m3u8",
+      "es": "https://vz-88b9f9c3-e13.b-cdn.net/bdcd07ac-48e2-41ea-8d94-a11bd363b699/playlist.m3u8"
+    },
+    "subtitle": {
+      "en": "https://thanhthai198.github.io/my_cdn/subtitle/onboarding_three/en.vtt",
+      "es": ""
+    }
+  },
+  "ACCOUNT_MAIN_SCREEN": {
+    "key": "ACCOUNT_MAIN_SCREEN",
+    "url": {
+      "en": "https://vz-88b9f9c3-e13.b-cdn.net/ae49581f-4cc0-4a52-ba36-52ecfdfa2448/playlist.m3u8",
+      "es": "https://vz-88b9f9c3-e13.b-cdn.net/0fc45b97-730c-4348-b891-6e6d49fe9a74/playlist.m3u8"
+    },
+    "subtitle": {
+      "en": "https://prediction3ddotcom.github.io/TradeWize.Public/subtitle/InstructionalVideos/Profile/en.vtt",
+      "es": ""
+    }
+  },
+  "FEEDBACK_SCREEN": {
+    "key": "FEEDBACK_SCREEN",
+    "url": {
+      "en": "https://vz-88b9f9c3-e13.b-cdn.net/d0f2f02a-b2f0-4345-93fb-b64a7b6f7b42/playlist.m3u8",
+      "es": "https://vz-88b9f9c3-e13.b-cdn.net/b169c501-4966-4931-a4ef-fe7919485b21/playlist.m3u8"
+    },
+    "subtitle": {
+      "en": "https://prediction3ddotcom.github.io/TradeWize.Public/subtitle/InstructionalVideos/Feedback/en.vtt",
+      "es": ""
+    }
+  },
+  "TRAINING_SESSION_SCREEN": {
+    "key": "TRAINING_SESSION_SCREEN",
+    "url": {
+      "en": "https://vz-88b9f9c3-e13.b-cdn.net/4b64d6ff-2297-429a-a404-af6fe62f827a/playlist.m3u8",
+      "es": "https://vz-88b9f9c3-e13.b-cdn.net/7bf8da38-7fcd-47a5-be5d-5e645997c54b/playlist.m3u8"
+    },
+    "subtitle": {
+      "en": "https://prediction3ddotcom.github.io/TradeWize.Public/subtitle/InstructionalVideos/SystemAndQualityGuide/en.vtt",
+      "es": ""
+    }
+  },
+  "JOB_BOARD_SCREEN": {
+    "key": "JOB_BOARD_SCREEN",
+    "url": {
+      "en": "https://vz-88b9f9c3-e13.b-cdn.net/8c614ee6-2fea-4f5d-a4ad-461ff8aae713/playlist.m3u8",
+      "es": "https://vz-88b9f9c3-e13.b-cdn.net/b5c46210-0b90-46b7-ab41-f5ff6bc64c55/playlist.m3u8"
+    },
+    "subtitle": {
+      "en": "https://prediction3ddotcom.github.io/TradeWize.Public/subtitle/InstructionalVideos/JobBoard/en.vtt",
+      "es": ""
+    }
+  },
+  "MY_BUDGET_SCREEN": {
+    "key": "MY_BUDGET_SCREEN",
+    "url": {
+      "en": "https://vz-88b9f9c3-e13.b-cdn.net/44c99b47-6b5c-4c9a-acf4-6996a3ea9467/playlist.m3u8",
+      "es": "https://vz-88b9f9c3-e13.b-cdn.net/2510deb7-ee9b-4350-b029-136426b0b755/playlist.m3u8"
+    },
+    "subtitle": {
+      "en": "https://prediction3ddotcom.github.io/TradeWize.Public/subtitle/InstructionalVideos/MyBudget/en.vtt",
+      "es": ""
+    }
+  },
+  "NETWORK_SCREEN": {
+    "key": "NETWORK_SCREEN",
+    "url": {
+      "en": "https://vz-88b9f9c3-e13.b-cdn.net/abb5f9ef-7171-4191-9fad-508006c5f071/playlist.m3u8",
+      "es": "https://vz-88b9f9c3-e13.b-cdn.net/8c4c875c-dd77-476b-b94f-fce61aa27af4/playlist.m3u8"
+    },
+    "subtitle": {
+      "en": "https://prediction3ddotcom.github.io/TradeWize.Public/subtitle/InstructionalVideos/Network/en.vtt",
+      "es": ""
+    }
+  },
+  "PAYMENT_ACCOUNT_SCREEN": {
+    "key": "PAYMENT_ACCOUNT_SCREEN",
+    "url": {
+      "en": "https://vz-88b9f9c3-e13.b-cdn.net/616e8a50-dd95-4b69-a073-09db7b5059cf/playlist.m3u8",
+      "es": "https://vz-88b9f9c3-e13.b-cdn.net/151cb32c-9209-470c-9219-1b7aeeed7ae4/playlist.m3u8"
+    },
+    "subtitle": {
+      "en": "https://prediction3ddotcom.github.io/TradeWize.Public/subtitle/InstructionalVideos/Payment/en.vtt",
+      "es": ""
+    }
+  },
+  "REFER_FRIEND_SCREEN": {
+    "key": "REFER_FRIEND_SCREEN",
+    "url": {
+      "en": "https://vz-88b9f9c3-e13.b-cdn.net/43588709-258b-4fb4-831b-242ee2734582/playlist.m3u8",
+      "es": "https://vz-88b9f9c3-e13.b-cdn.net/afc57b11-fe5d-4dae-bf46-b4dc1a57232f/playlist.m3u8"
+    },
+    "subtitle": {
+      "en": "https://prediction3ddotcom.github.io/TradeWize.Public/subtitle/InstructionalVideos/ReferAFriend/en.vtt",
+      "es": ""
+    }
+  },
+  "1_MYJOBS_SCREENS": {
+    "key": "1_MYJOBS_SCREENS",
+    "url": {
+      "en": "https://vz-88b9f9c3-e13.b-cdn.net/5469f06f-3fce-4951-9007-7ec853d54cac/playlist.m3u8",
+      "es": "https://vz-88b9f9c3-e13.b-cdn.net/2e7b637a-3f35-4078-af50-0f7f5e995ab7/playlist.m3u8"
+    },
+    "subtitle": {
+      "en": "https://prediction3ddotcom.github.io/TradeWize.Public/subtitle/InstructionalVideos/JobDetail/video_one/en.vtt",
+      "es": ""
+    }
+  },
+  "2_MYJOBS_SCREENS": {
+    "key": "2_MYJOBS_SCREENS",
+    "url": {
+      "en": "https://vz-88b9f9c3-e13.b-cdn.net/d7dfaecd-52eb-40c8-837d-83934bb2ef9f/playlist.m3u8",
+      "es": "https://vz-88b9f9c3-e13.b-cdn.net/6a63cc9c-3213-4898-89db-833c68952c93/playlist.m3u8"
+    },
+    "subtitle": {
+      "en": "https://prediction3ddotcom.github.io/TradeWize.Public/subtitle/InstructionalVideos/JobDetail/video_two/en.vtt",
+      "es": ""
+    }
+  },
+  "3_MYJOBS_SCREENS": {
+    "key": "3_MYJOBS_SCREENS",
+    "url": {
+      "en": "https://vz-88b9f9c3-e13.b-cdn.net/94992b59-1dd2-49a6-bda6-d1e4dbf9f170/playlist.m3u8",
+      "es": "https://vz-88b9f9c3-e13.b-cdn.net/79e82e0f-c2ff-409f-ba16-bb0c26d48af1/playlist.m3u8"
+    },
+    "subtitle": {
+      "en": "https://prediction3ddotcom.github.io/TradeWize.Public/subtitle/InstructionalVideos/JobDetail/video_three/en.vtt",
+      "es": ""
+    }
+  }
+}

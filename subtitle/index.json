@@ -1,0 +1,31 @@
+{
+  "1_INTRO_VIDEO": {
+    "key": "1_INTRO_VIDEO",
+    "url": "https://vz-88b9f9c3-e13.b-cdn.net/dc9106b5-c945-4f13-98c0-4595dc7c7236/playlist.m3u8",
+    "subtitle": {
+      "es": "https://thanhthai198.github.io/my_cdn/subtitle/intro/es.vtt",
+      "en": "https://thanhthai198.github.io/my_cdn/subtitle/intro/en.vtt"
+    }
+  },
+  "2_INTERVIEW_VIDEO": {
+    "key": "2_INTERVIEW_VIDEO",
+    "url": "https://vz-88b9f9c3-e13.b-cdn.net/e52f5874-3b6d-4b75-9588-2553737537ab/playlist.m3u8",
+    "subtitle": {
+      "en": "https://thanhthai198.github.io/my_cdn/subtitle/interview/en.vtt",
+      "es": "https://thanhthai198.github.io/my_cdn/subtitle/interview/es.vtt"
+    }
+  },
+  "3_ONBOARDING_VIDEO": {
+    "key": "3_ONBOARDING_VIDEO",
+    "url": "https://vz-88b9f9c3-e13.b-cdn.net/53f9a23a-d1ce-4d52-b655-3b6585e8b053/playlist.m3u8",
+    "subtitle": {
+      "en": "https://thanhthai198.github.io/my_cdn/subtitle/onboarding_three/en.vtt",
+      "es": "https://thanhthai198.github.io/my_cdn/subtitle/onboarding_three/es.vtt"
+    }
+  },
+  "4_ONBOARDING_VIDEO": {
+    "key": "4_ONBOARDING_VIDEO",
+    "url": "https://vz-88b9f9c3-e13.b-cdn.net/79bcfb71-ec64-4fad-b8f7-bab379ed1d94/playlist.m3u8",
+    "subtitle": {}
+  }
+}
