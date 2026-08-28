@@ -1,0 +1,33 @@
+name: Validate Job Board media
+
+on:
+  pull_request:
+    branches:
+      - main
+    paths:
+      - 'subtitle/media.json'
+      - 'subtitle/InstructionalVideos/JobBoard/**'
+      - 'scripts/validate-job-board-media.mjs'
+      - '.github/workflows/validate-job-board-media.yml'
+  push:
+    branches:
+      - main
+    paths:
+      - 'subtitle/media.json'
+      - 'subtitle/InstructionalVideos/JobBoard/**'
+      - 'scripts/validate-job-board-media.mjs'
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Fetch main for scope comparison
+        run: git fetch origin main --depth=1
+      - name: Validate manifest and WebVTT files
+        run: node scripts/validate-job-board-media.mjs
