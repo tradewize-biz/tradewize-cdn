@@ -68,12 +68,12 @@
   "JOB_BOARD_SCREEN": {
     "key": "JOB_BOARD_SCREEN",
     "url": {
-      "en": "https://vz-88b9f9c3-e13.b-cdn.net/8c614ee6-2fea-4f5d-a4ad-461ff8aae713/playlist.m3u8",
-      "es": "https://vz-88b9f9c3-e13.b-cdn.net/b5c46210-0b90-46b7-ab41-f5ff6bc64c55/playlist.m3u8"
+      "en": "https://vz-88b9f9c3-e13.b-cdn.net/bb83d9ec-ec90-4c55-80d9-e7f0b30f0815/play_720p.mp4",
+      "es": "https://vz-88b9f9c3-e13.b-cdn.net/264c0f84-07fd-4cb0-bacd-3938465f27ff/play_720p.mp4"
     },
     "subtitle": {
       "en": "https://tradewize-biz.github.io/tradewize-cdn/subtitle/InstructionalVideos/JobBoard/en.vtt",
-      "es": ""
+      "es": "https://tradewize-biz.github.io/tradewize-cdn/subtitle/InstructionalVideos/JobBoard/es.vtt"
     }
   },
   "MY_BUDGET_SCREEN": {
